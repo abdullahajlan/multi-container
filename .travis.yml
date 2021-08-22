@@ -24,5 +24,5 @@ after_success:
  
   - docker push abdullahajlan/multi-client
   - docker push abdullahajlan/multi-nginx
-  - docker build -t abdullahajlan/multi-server
-  - docker build -t abdullahajlan/multi-worker
+  - docker push abdullahajlan/multi-server
+  - docker push abdullahajlan/multi-worker
